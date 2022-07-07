@@ -12,6 +12,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Setup Node version
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
       - name: Build
         run: |
           npm i
