@@ -1,0 +1,29 @@
+#controller {
+  bottom: 5px;
+  left: 10px;
+  min-width: 600px;
+  position: fixed;
+}
+#controller .MuiIconButton-root {
+  color: #fff;
+}
+#controller .MuiIconButton-root.Mui-disabled {
+  color: rgba(250, 250, 250, 0.26);
+}
+#controller .slider {
+  margin-left: 12px;
+  vertical-align: middle;
+  width: calc(100% - 60px);
+}
+#controller .MuiSlider-valueLabel span {
+  background: none;
+  color: #fff;
+}
+
+.details {
+  bottom: 50px;
+  color: #fff;
+  font-size: 75px;
+  left: 25px;
+  position: fixed;
+}
