@@ -1,7 +1,7 @@
 {
-  "name": "geolocation-peoples-mobility",
+  "name": "city-mobility",
   "version": "1.0.0",
-  "description": "Visualisation of mobility of peoples on geolocation",
+  "description": "Visualisation of mobility in the city on geolocation",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
