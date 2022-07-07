@@ -1,2 +1,2 @@
-# geolocation-peoples-mobility
-Visualisation of mobility of peoples on geolocation
+# city-mobility
+Visualisation of mobility in the city on geolocation
