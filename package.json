@@ -1,16 +1,21 @@
 {
-  "name": "vis-pulse",
+  "name": "geolocation-peoples-mobility",
   "version": "1.0.0",
-  "description": "",
+  "description": "Visualisation of mobility of peoples on geolocation",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack serve --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "analytics",
+    "mobility",
+    "visualization",
+    "webgl"
+  ],
+  "author": "Chinakrit Pipatupatum <chinakrit.pip@truedigital.com>",
+  "license": "MIT",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
