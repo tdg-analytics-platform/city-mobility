@@ -1,11 +1,10 @@
-import React, { useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { geoToH3 } from 'h3-js'
 import { Map as StaticMap } from 'react-map-gl'
 import DeckGL from '@deck.gl/react'
 import { H3HexagonLayer } from '@deck.gl/geo-layers'
 
 import RangeController from './RangeController'
-import { useEffect } from 'react'
 
 const MAPBOX_TOKEN = process.env.MapboxAccessToken
 
